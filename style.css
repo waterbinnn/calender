@@ -1,0 +1,81 @@
+/* reset css  */
+
+body,h1,p,table,tr,td,th {
+  margin: 0;
+  padding: 0;
+}
+h1,tr,td{
+  font-size: initial;
+  font-weight: initial;
+}
+
+fieldset{
+  border: none;
+}
+
+/* styling  */
+
+body {
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  font-family: sans-serif;
+
+}
+
+.date td:nth-child(1),
+.days th:nth-child(1){
+  color: rgb(255, 102, 102);
+}
+
+.red {
+  color: rgb(255, 102, 102);
+}
+
+.wrapper {
+  background-color: rgb(66, 63, 63);
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 10px;
+  border-spacing: 30px;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #68fccd;
+}
+
+.wrapper h1 {
+  padding-bottom: 30px;
+}
+
+.calender {
+  width: 200px;
+  height: 200px;
+  border: 1px dashed rgba(238, 238, 238, 0.565);
+  border-radius: 12px;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.calender caption {
+  font-size: 20px;
+  font-weight: 700;
+  color: #68fccd;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  margin-top: 30px;
+}
+
+th{
+  font-size: 12px;
+  text-align: center;
+  padding: 2px;
+}
+
+td{
+  font-size: 11px;
+}
