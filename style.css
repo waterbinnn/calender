@@ -77,5 +77,8 @@ th{
 }
 
 td{
+  /* width: 10px; */
+  /* height: 10px; */
   font-size: 11px;
+  text-align: center;
 }
